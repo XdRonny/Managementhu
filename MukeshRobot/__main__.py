@@ -582,7 +582,7 @@ Yᴏᴜ ᴄᴀɴ ʜᴇʟᴘ ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴡɪᴛʜ 
                 [ 
      
                     [
-                        InlineKeyboardButton(text="• Dᴏɴᴀᴛᴇ •", url="https://t.me/JAANXD_01"),InlineKeyboardButton(text="◁", callback_data="main_help")
+                        InlineKeyboardButton(text="• Dᴏɴᴀᴛᴇ •", url="https://t.me/JAANXD_01"),InlineKeyboardButton(text="• ʙᴀᴄᴋ •", callback_data="Main_help")
                     ]
                 ]
             ),
