@@ -372,13 +372,6 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-        InlineKeyboardButton(text="🏡", callback_data="mukesh_back"),
-        InlineKeyboardButton(text="🛡️", callback_data="mukesh_"),
-        InlineKeyboardButton(text="💳", callback_data="source_"),
-        InlineKeyboardButton(text="🧑‍💻", url=f"tg://user?id={OWNER_ID}"),
-        InlineKeyboardButton(text="🖥️", callback_data="Main_help"),
-     ],
-                    [
                         InlineKeyboardButton(
                             text="🚩sᴜᴩᴩᴏʀᴛ", callback_data="mukesh_support"
                         ),
@@ -407,14 +400,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [
-        InlineKeyboardButton(text="🏡", callback_data="mukesh_back"),
-        InlineKeyboardButton(text="🛡️", callback_data="mukesh_"),
-        InlineKeyboardButton(text="💳", callback_data="source_"),
-        InlineKeyboardButton(text="🧑‍💻", url=f"tg://user?id={OWNER_ID}"),
-        InlineKeyboardButton(text="🖥️", callback_data="Main_help"),
-     ],
-                    [
+                  [
                         InlineKeyboardButton(
                             text="🏡 sᴜᴩᴩᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"
                         ),
@@ -425,9 +411,6 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                     [
                         InlineKeyboardButton(
                             text="🥀 ᴅᴇᴠᴇʟᴏᴩᴇʀ", url=f"tg://user?id={OWNER_ID}"
-                        ),
-                        InlineKeyboardButton(
-                            text="ɢɪᴛʜᴜʙ 🍹", url="https://github.com/noob-mukesh"
                         ),
                     ],
                     [
